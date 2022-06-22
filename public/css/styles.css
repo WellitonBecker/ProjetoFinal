@@ -132,7 +132,7 @@ header {
     color: #757575;
 }
 
-footer {
+.div-footer {
     text-align: center;
     background-color: #353e48;
     color: #fff;
@@ -169,4 +169,18 @@ footer p {
 }
 .td-acoes label {
     margin-right: 75px;
+}
+
+@keyframes hide {
+    from { opacity: 1 }
+    to   { opacity: 0 }
+  }
+
+.msg {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    animation: hide 2s 2s forwards;
 }

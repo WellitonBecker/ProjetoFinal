@@ -38,7 +38,7 @@
         <div class="container">
             @yield('conteudo')
         </div>
-        <main>
+        <footer>
             <div class="container-fluid">
                 <div class="row">
                     @if(session('msg'))
@@ -47,12 +47,12 @@
                     @yield('content')
                 </div>
             </div>
-        </main>
-        
-        <footer>
-            <p>Projeto Final Laravel &copy; 2022</p>
-            <p>Welliton Luiz Becker</p>
+            <div class="div-footer">
+                <p>Projeto Final Laravel &copy; 2022</p>
+                <p>Welliton Luiz Becker</p>
+            </div>
         </footer>
+        
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
